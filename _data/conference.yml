@@ -1,23 +1,29 @@
-full_name: Escola Regional de Alto Desempenho da Região Sudeste 2025
-short_name: ERAD-SE 2025
+full_name: Commisão Regional de Alto Desempenho da Região Sudeste
+short_name: CRAD-SE
 description: > # this means to ignore newlines until "baseurl:"
-  O público-alvo da ERAD-SE 2025 são alunos de graduação, pós-graduação e iniciação científica, 
-  profissionais, professores e pesquisadores que atuam na área de Computação de Alto Desempenho e em áreas que 
-  fazem uso intensivo de supercomputação, como por exemplo, Bioinformática, Engenharias, Petróleo, Óleo e Gás, 
-  e Saúde, além de representantes das empresas, da indústria e do governo. 
+A Comissão Regional de Alto Desempenho da Região Sudeste, CRAD-SE foi criada em 2025, com a expansão da 
+Comissão Regional de Alto Desempenho do Rio de Janeiro, CRAD/RJ, para incorporar os estados de Minas 
+Gerais e Espírito Santo. Com apoio da BSC, a comissão tem como objetivo principal criar políticas de 
+fomento às áreas de processamento distribuído e paralelo e de computação de alto desempenho na região. 
+Dentre as diversas atribuições da CRAD-SE, inclui-se o estabelecimento de um fórum de discussões sobre 
+diferentes frentes de estudo e pesquisa referentes a estas áreas, seja por meio da lista de discussões 
+da CRAD-SE, seja pela organização das ERADs em regime anual. CRAD-SE congrega instituições de pesquisa 
+e educação, empresas e indústria, e o governo dos estados do Rio de Janeiro, Minas Gerais e Espírito 
+Santo, com interesses em Computação de Alto Desempenho (High Performance Computing - HPC), processamento
+distribuído e paralelo, e áreas que  fazem uso de supercomputação.
+ 
 
-email: erad-se-info@ic.uff.br
+email: crad-se-info@ic.uff.br
 
-iteration: 10a
-full_title: X Escola Regional de Alto Desempenho da Região Sudeste
-short_title: X ERAD-SE 2025
+full_title: SBC Commisão Regional de Alto Desempenho da Região Sudeste
+short_title: CRAD-SE 2025
 
-year: 2025
-date: 5 a 7 de Novembro de 2025
+#year: 2025
+#date: 5 a 7 de Novembro de 2025
 
-location: Instituto de Computação 
-location2: Universidade Federal Fluminense (UFF)
-country: Niterói, Brasil
+#location: Instituto de Computação 
+#location2: Universidade Federal Fluminense (UFF)
+#country: Niterói, Brasil
 
 logo_path: ./assets/images/ERAD-SE-FLogo.png
 sbc_path: ./assets/images/LogoSBC-Site.png
@@ -131,7 +137,7 @@ navbar:
   - id: 2
 #    label: Chamada de Trabalhos
     label: Chamadas
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Concurso de TCCs e Dissertações
@@ -144,7 +150,7 @@ navbar:
     - id: 3
       label: Fórum de Pós-graduação
       path: /cfp.html
-      visible: True
+      visible: False
     - id: 4
       label: Maratona de Programação Paralela
       path: /cfpp.html
@@ -157,7 +163,7 @@ navbar:
     label: Submissões
     # Added the following line since only child
     # path: /submission.html 
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Como Submeter
@@ -169,36 +175,36 @@ navbar:
       visible: True
   - id: 4
     label: Programação
-    visible: True
+    visible: False
     children:
     - id: 1
       label: Cronograma
       path: /program.html
-      visible: True
+      visible: False
     - id: 2
       label: Palestras
       path: /talks.html
-      visible: True
+      visible: False
     - id: 3
       label: Minicursos
       path: /mcursos.html
-      visible: True
-  - id: 5
-    label: Inscrições
-    visible: True
-    children:
-    - id: 1
-      label: Promo
-      path: /combo.html
-      visible: True
-    - id: 2
-      label: Valores
-      path: /registration.html
-      visible: True
-  - id: 6
-    label: Venue
-    path: /venue.html
-    visible: True
+      visible: False
+#  - id: 5
+#    label: Inscrições
+#    visible: True
+#    children:
+#    - id: 1
+#      label: Promo
+#      path: /combo.html
+#      visible: True
+#    - id: 2
+#      label: Valores
+#      path: /registration.html
+#      visible: True
+#  - id: 6
+#    label: Venue
+#    path: /venue.html
+#    visible: True
     
 deadline_timezone: AoE
 deadlines:
@@ -211,38 +217,27 @@ deadlines:
 #    text: Submissão de Trabalhos
 #    pass_due: True
 #    strike_through: True
-  - date: 2025-09-29
-    text: Submissão de Trabalhos
+#  - date: 2025-09-29
+#    text: Submissão de Trabalhos
+#    pass_due: False
+#    strike_through: True
+#  - date: 2025-09-29
+#    text: Propostas de Minicursos (Fechada)
+#    pass_due: False
+#    strike_through: True
+#  - date: 2025-10-05
+#    text: Submissão de Trabalhos (Fechada)
+#    pass_due: False
+#    strike_through: True
+  - date: 2026-01-26
+    text: A Próxima Reunião
     pass_due: False
-    strike_through: True
-  - date: 2025-09-29
-    text: Propostas de Minicursos (Fechada)
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-05
-    text: Submissão de Trabalhos (Fechada)
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-20
-    text: Notificação de Aceitação
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-27
-    text: Entrega da Versão Final
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-31
-    text: Entrega da Versão Final
-    pass_due: False
-    strike_through: True
-  - date: 2025-10-31
-    text: Prazo para as Inscrições dos Autores
-    pass_due: False
-    strike_through: True
-  - date: 2025-11-04
-    text: Prazo para Registro das Equipes da Maratona
-    pass_due: False
-    strike_through: True
+    strike_through: False
+#  - date: 2025-10-27
+#    text: Entrega da Versão Final
+#    pass_due: False
+#    strike_through: True
+
 
 sponsors:
   - name: Amazon Web Services
@@ -278,6 +273,9 @@ social_media:
   insta_link: https://www.instagram.com/eradse.sbc
 
 previous_iterations:
+  - name: X ERAD-SE
+    year: 2025
+    url: https://crad-se.github.io/erad-se2025/
   - name: IX ERAD-RJ
     year: 2024
     url: https://eradrj.sbc.org.br/2024/
