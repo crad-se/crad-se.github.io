@@ -5,12 +5,12 @@ layout: page
 <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 my-2 text-justify conference-text">
 
-        <h5>Bem-vindo à {{site.data.conference.short_title}}!</h5>
+        <h5>Bem-vindo à página da {{site.data.conference.short_title}}!</h5>
 
         <p class="lead">
-            A {{site.data.conference.full_title}} será realizada no {{site.data.conference.location}} 
-            da {{site.data.conference.location2}}, localizada em {{site.data.conference.country}},
-            de {{site.data.conference.date}}.
+            A {{site.data.conference.full_name}} ({{site.data.conference.short_name}}) foi criada 
+            em 2025, com a expansão da Comissão Regional de Alto Desempenho do Rio de Janeiro (CRAD/RJ),
+            para incorporar os estados de Minas Gerais e Espírito Santo.
         </p>
         {% if site.data.conference.description %}
             <p> {{site.data.conference.description}} </p>
@@ -25,7 +25,6 @@ layout: page
                 <div class="align-self-center text-justify">
                     {% if site.data.conference.sbc_description %}
                         <p>{{site.data.conference.sbc_description}}</p>    
-                    <!-- <p class="card-subtitle"><b>Cargo</b>: {{ speaker.post }}</p> -->
                     {% endif %}
                     {{content}}
                 </div>
@@ -58,5 +57,5 @@ layout: page
         <!-- ---------------- -->
     </div>
 </div>
-{% include sponsors.html %}
+<!-- {% include sponsors.html %} -->
 {% include organizers.html %}
