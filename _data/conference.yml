@@ -1,18 +1,18 @@
 full_name: Commisão Regional de Alto Desempenho da Região Sudeste
 short_name: CRAD-SE
 description: > # this means to ignore newlines until "baseurl:"
-A Comissão Regional de Alto Desempenho da Região Sudeste, CRAD-SE foi criada em 2025, com a expansão da 
-Comissão Regional de Alto Desempenho do Rio de Janeiro, CRAD/RJ, para incorporar os estados de Minas 
-Gerais e Espírito Santo. Com apoio da BSC, a comissão tem como objetivo principal criar políticas de 
-fomento às áreas de processamento distribuído e paralelo e de computação de alto desempenho na região. 
-Dentre as diversas atribuições da CRAD-SE, inclui-se o estabelecimento de um fórum de discussões sobre 
-diferentes frentes de estudo e pesquisa referentes a estas áreas, seja por meio da lista de discussões 
-da CRAD-SE, seja pela organização das ERADs em regime anual. CRAD-SE congrega instituições de pesquisa 
-e educação, empresas e indústria, e o governo dos estados do Rio de Janeiro, Minas Gerais e Espírito 
-Santo, com interesses em Computação de Alto Desempenho (High Performance Computing - HPC), processamento
-distribuído e paralelo, e áreas que  fazem uso de supercomputação.
+  A Comissão Regional de Alto Desempenho da Região Sudeste, CRAD-SE foi criada em 2025, com a expansão 
+  da Comissão Regional de Alto Desempenho do Rio de Janeiro, CRAD/RJ, para incorporar os estados de 
+  Minas Gerais e Espírito Santo. Com apoio da BSC, a comissão tem como objetivo principal criar 
+  políticas de fomento às áreas de processamento distribuído e paralelo e de computação de alto 
+  desempenho na região. Dentre as diversas atribuições da CRAD-SE, inclui-se o estabelecimento de um 
+  fórum de discussões sobre diferentes frentes de estudo e pesquisa referentes a estas áreas, seja 
+  por meio da lista de discussões da CRAD-SE, seja pela organização das ERADs em regime anual. CRAD-SE 
+  congrega instituições de pesquisa e educação, empresas e indústria, e o governo dos estados do Rio 
+  de Janeiro, Minas Gerais e Espírito Santo, com interesses em Computação de Alto Desempenho (High 
+  Performance Computing - HPC), processamento distribuído e paralelo, e áreas que  fazem uso de 
+  supercomputação.
  
-
 email: crad-se-info@ic.uff.br
 
 full_title: SBC Commisão Regional de Alto Desempenho da Região Sudeste
