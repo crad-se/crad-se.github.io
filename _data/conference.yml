@@ -1,9 +1,7 @@
 full_name: Commisão Regional de Alto Desempenho da Região Sudeste
 short_name: CRAD-SE
 description: > # this means to ignore newlines until "baseurl:"
-  A Comissão Regional de Alto Desempenho da Região Sudeste, CRAD-SE foi criada em 2025, com a expansão 
-  da Comissão Regional de Alto Desempenho do Rio de Janeiro, CRAD/RJ, para incorporar os estados de 
-  Minas Gerais e Espírito Santo. Com apoio da BSC, a comissão tem como objetivo principal criar 
+  Com apoio da SBC, a comissão tem como objetivo principal criar 
   políticas de fomento às áreas de processamento distribuído e paralelo e de computação de alto 
   desempenho na região. Dentre as diversas atribuições da CRAD-SE, inclui-se o estabelecimento de um 
   fórum de discussões sobre diferentes frentes de estudo e pesquisa referentes a estas áreas, seja 
@@ -16,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
 email: crad-se-info@ic.uff.br
 
 full_title: SBC Commisão Regional de Alto Desempenho da Região Sudeste
-short_title: CRAD-SE 2025
+short_title: CRAD-SE
 
 #year: 2025
 #date: 5 a 7 de Novembro de 2025
@@ -28,14 +26,14 @@ short_title: CRAD-SE 2025
 logo_path: ./assets/images/ERAD-SE-FLogo.png
 sbc_path: ./assets/images/LogoSBC-Site.png
 sbc_description: > 
-  A ERAD-SE é promovida pela Sociedade Brasileira de Computação (SBC) e pela recente criada Comissão Regional 
+  A CRAD-SE é promovida pela Sociedade Brasileira de Computação (SBC) e pela recente criada Comissão Regional 
   de Alto Desempenho do Sudeste (CRAD-SE). As ERADs têm o objetivo de estimular o estudo e a pesquisa nas áreas 
   de Arquitetura de Computadores, Processamento de Alto Desempenho, Sistemas Distribuídos, e Aplicações, 
   qualificar profissionais da região, além de prover um fórum regular onde possam ser apresentados e discutidas
   avanços recentes nestas áreas e formas de ensino de alto desempenho nas universidades e institutos de pesquisa. 
 
 # if show_logo is false, show_title: false has no effect
-show_logo: true
+show_logo: false
 show_title: false
 
 slideshow:
@@ -135,8 +133,7 @@ navbar:
     path: /organization.html
     visible: True
   - id: 2
-#    label: Chamada de Trabalhos
-    label: Chamadas
+    label: Atas das Assembléias Gerais
     visible: False
     children:
     - id: 1
@@ -146,7 +143,7 @@ navbar:
     - id: 2
       label: Fórum de Iniciação Científica
       path: /cfi.html
-      visible: True
+      visible: False
     - id: 3
       label: Fórum de Pós-graduação
       path: /cfp.html
@@ -154,11 +151,11 @@ navbar:
     - id: 4
       label: Maratona de Programação Paralela
       path: /cfpp.html
-      visible: True
+      visible: False
     - id: 5
       label: Minicursos
       path: /cfm.html
-      visible: True
+      visible: False
   - id: 3
     label: Submissões
     # Added the following line since only child
@@ -238,7 +235,6 @@ deadlines:
 #    pass_due: False
 #    strike_through: True
 
-
 sponsors:
   - name: Amazon Web Services
     logo_path: ./assets/images/sponsors/AWS_logo_RGB_BLK.png
@@ -270,7 +266,7 @@ organizers:
 social_media:
   facebook_link:
   twitter_link:
-  insta_link: https://www.instagram.com/eradse.sbc
+#  insta_link: https://www.instagram.com/eradse.sbc
 
 previous_iterations:
   - name: X ERAD-SE
