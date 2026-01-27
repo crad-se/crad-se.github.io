@@ -1,53 +1,58 @@
-- title: Coordenação Geral
+- title: Coordenação
   column: 1
   members:
   - name: Cristina Boeres
     post: ""
     org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
-  - name: Vinod Rebello
+- title: Comissão Executiva
+  column: 1
+  members:
+  - name: Diego N. Brandão
+    org: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Rio de Janeiro - RJ
+    homepage: ""
+  - name: Maicon Melo Alves
+    org:  Petróleo Brasileiro S.A. (Petrobras), Campos dos Goytacazes - RJ
+    homepage: ""
+  - name: Adriano Cortes
+    org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
     post: ""
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
-- title: Coordenação do Comitê de Programa dos Forúns
+    homepage: ""
+  - name: Marcelo Zamith
+    org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
+    homepage: ""
+  - name: Ricardo Ferreira
+    org: Universidade Federal de Viçosa (UFV), Viçosa - MG
+    post: ""
+    homepage: ""
+  
+- title: Comissão Deliberativa
   column: 1
   members:
   - name: Gabriel Silva
     org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
     post: ""
     homepage: ""
-  - name: Ricardo Ferreira
-    org: Universidade Federal de Viçosa (UFV), Viçosa - MG
-    post: ""
-    homepage: ""
-- title: Coordenação do Concurso de TCCs e Dissertações
-  column: 1
-  members:
   - name: Alexandre Sena
     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
     homepage: ""
   - name: Aline Nascimento
     org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: ""
-- title: Coordenação da Maratona de Programação Paralela
-  column: 1
-  members:
-  - name: Marcelo Zamith
-    org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
-    homepage: ""
   - name: Leandro Santiago de Araújo
     org: Universidade Federal Fluminense (UFF), Niterói - RJ
     homepage: ""
-- title: Coordenação dos Minicursos
-  column: 1
-  members:
   - name: Maria Clicia Stelling de Castro
     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
     homepage: ""
   - name: Rafaela Brum
     org: Universidade do Estado do Rio de Janeiro (UERJ), Rio de Janeiro - RJ
     homepage: ""
-- title: Comitê Científico e Técnico
+  - name: Vinod Rebello
+    post: ""
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
+    homepage: https://www.ic.uff.br/blog/pessoas/eugene-francis-vinod-rebello/
+- title: Membros
   column: 2
   members: 
   - name: Anderson Fernandes Pereira dos Santos
@@ -64,9 +69,6 @@
     homepage: ""
   - name: Daniel de Oliveira
     org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
-  - name: Diego N. Brandão
-    org: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Rio de Janeiro - RJ
     homepage: ""
   - name: Esteban W. Clua
     org: Universidade Federal Fluminense (UFF), Niterói - RJ
@@ -128,10 +130,4 @@
   - name: Vinícius Dias
     org: Universidade Federal de Lavras (UFLA), Lavras - MG
     homepage: ""
-   
-- title: Webmaster
-  column: 1
-  members:
-  - name: Vinod Rebello
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
+  
