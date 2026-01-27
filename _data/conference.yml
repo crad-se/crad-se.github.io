@@ -11,7 +11,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Performance Computing - HPC), processamento distribuído e paralelo, e áreas que  fazem uso de 
   supercomputação.
  
-email: crad-se-info@ic.uff.br
+email: crad-se-l@ic.uff.br
 
 full_title: SBC Comissão Regional de Alto Desempenho da Região Sudeste
 short_title: CRAD-SE
@@ -26,11 +26,12 @@ short_title: CRAD-SE
 logo_path: ./assets/images/ERAD-SE-FLogo.png
 sbc_path: ./assets/images/LogoSBC-Site.png
 sbc_description: > 
-  A CRAD-SE é promovida pela Sociedade Brasileira de Computação (SBC) e pela recente criada Comissão Regional 
-  de Alto Desempenho do Sudeste (CRAD-SE). As ERADs têm o objetivo de estimular o estudo e a pesquisa nas áreas 
-  de Arquitetura de Computadores, Processamento de Alto Desempenho, Sistemas Distribuídos, e Aplicações, 
-  qualificar profissionais da região, além de prover um fórum regular onde possam ser apresentados e discutidas
-  avanços recentes nestas áreas e formas de ensino de alto desempenho nas universidades e institutos de pesquisa. 
+  A CRAD-SE é promovida pela Sociedade Brasileira de Computação (SBC) com o objetivo de estimular o 
+  estudo e a pesquisa nas áreas de Arquitetura de Computadores, Processamento de Alto Desempenho, 
+  Sistemas Distribuídos, e Aplicações, e promover a qualificação de profissionais da região, além 
+  de prover um fórum regular onde possam ser apresentados e discutidas avanços recentes nestas áreas 
+  e formas de ensinar e aproveitar de computação de alto desempenho nas universidades e institutos 
+  de pesquisa. 
 
 # if show_logo is false, show_title: false has no effect
 show_logo: false
@@ -38,87 +39,52 @@ show_title: false
 
 slideshow:
   - id: 0
-    image_path: ./assets/images/slideshow/baia.jpg
-    description: Baia de Guanabara
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-    active: True
-  - id: 1
-    image_path: ./assets/images/slideshow/mac.jpg
-    description: Museu de Arte Contemporânea de Niterói
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 2
-    image_path: ./assets/images/slideshow/Parque.jpg
-    description: Vista da Parque da Cidade
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 3
-    image_path: ./assets/images/slideshow/ilha.jpg
-    description: Ilha de Boa Viagem
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 4
-    image_path: ./assets/images/slideshow/Charitas.jpg
-    description: Por de Sol de Charitas
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 5
-    image_path: ./assets/images/slideshow/Pedra.jpg
-    description: Pedra do Índio, Icaraí
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 6
-    image_path: ./assets/images/slideshow/Icarai.jpg
-    description: Niterói
-    photographer_name: "Vinod Rebello"
-    photographer_link: ""
-  - id: 7
     image_path: ./assets/images/ERAD-SE-3-peach.png
     description: ES-MG-RJ
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-  - id: 8
+    active: True
+  - id: 1
     image_path: ./assets/images/slideshow/eraduff.jpg
     description: ERAD-SE 2025 @ IC-UFF
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-  - id: 9
+  - id: 2
     image_path: ./assets/images/slideshow/pal-aws.jpg
     description: Palestra AWS @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 10
+  - id: 3
     image_path: ./assets/images/slideshow/pal-petro.jpg
     description: Palestra PETROBRAS @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 11
+  - id: 4
     image_path: ./assets/images/slideshow/mc-aws.jpg
     description: Minicurso AWS @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""
-  - id: 12
+  - id: 5
     image_path: ./assets/images/slideshow/pal-viktor.jpg
     description: Palestra de Prof. Viktor Prasanna @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 13
+  - id: 6
     image_path: ./assets/images/slideshow/pal-alet.jpg
     description: Palestra de Profa. Aleteia Araújo @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 14
+  - id: 7
     image_path: ./assets/images/slideshow/pal-lexis.jpg
     description: Palestra LexisNexis @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 15
+  - id: 8
     image_path: ./assets/images/slideshow/pal-hpe.jpg
     description: Palestra HPE @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
     photographer_link: ""  
-  - id: 16
+  - id: 9
     image_path: ./assets/images/slideshow/coffee.jpg
     description: Coffee Break Discussions @ERAD-SE 2025
     photographer_name: "Vinod Rebello"
@@ -133,13 +99,17 @@ navbar:
     path: /organization.html
     visible: True
   - id: 2
+    label: Estatuto
+    path: /estatuto.html
+    visible: True
+  - id: 2
     label: Atas das Assembléias Gerais
-    visible: False
+    visible: True
     children:
     - id: 1
       label: Concurso de TCCs e Dissertações
       path: /cfd.html
-      visible: True
+      visible: False
     - id: 2
       label: Fórum de Iniciação Científica
       path: /cfi.html
@@ -157,19 +127,41 @@ navbar:
       path: /cfm.html
       visible: False
   - id: 3
-    label: Submissões
-    # Added the following line since only child
-    # path: /submission.html 
-    visible: False
+    label: ERADs Anteriores
+    visible: True
     children:
     - id: 1
-      label: Como Submeter
-      path: /submission.html
+      label: X ERAD-SE 2025
+      path: https://crad-se.github.io/erad-se2025/
       visible: True
     - id: 2
-      label: Artigos Aceitos
-      path: /accepted.html
+      label: IX ERAD-RJ 2024
+      path: https://eradrj.sbc.org.br/2024/
       visible: True
+    - id: 3
+      label: VIII ERAD-RJ 2023
+      path: https://eradrj.sbc.org.br/2023/
+      visible: True
+    - id: 4
+      label: VII ERAD-RJ 2021
+      path: http://erad2021.lncc.br/
+      visible: True
+    - id: 5
+      label: VI ERAD-RJ 2020
+      path: https://www.dcc.ufrrj.br/erad2020/
+      visible: True
+    - id: 6
+      label: V ERAD-RJ 2019
+      path: https://eic.cefet-rj.br/erad2019/index.php
+      visible: True
+    - id: 7
+      label: IV ERAD-RJ 2018
+      path: http://eradrj2018.ic.uff.br/index.php
+      visible: True
+    - id: 8
+      label: III ERAD-RJ 2017
+      path: https://www.dcc.ufrrj.br/erad2017/
+      visible: True  
   - id: 4
     label: Programação
     visible: False
@@ -186,18 +178,6 @@ navbar:
       label: Minicursos
       path: /mcursos.html
       visible: False
-#  - id: 5
-#    label: Inscrições
-#    visible: True
-#    children:
-#    - id: 1
-#      label: Promo
-#      path: /combo.html
-#      visible: True
-#    - id: 2
-#      label: Valores
-#      path: /registration.html
-#      visible: True
 #  - id: 6
 #    label: Venue
 #    path: /venue.html
@@ -272,24 +252,24 @@ previous_iterations:
   - name: X ERAD-SE
     year: 2025
     url: https://crad-se.github.io/erad-se2025/
-  - name: IX ERAD-RJ
-    year: 2024
-    url: https://eradrj.sbc.org.br/2024/
-  - name: VIII ERAD-RJ
-    year: 2023
-    url: https://eradrj.sbc.org.br/2023/
-  - name: VII ERAD-RJ
-    year: 2021
-    url: http://erad2021.lncc.br/
-  - name: VI ERAD-RJ
-    year: 2020
-    url: https://www.dcc.ufrrj.br/erad2020/
-  - name: V ERAD-RJ
-    year: 2019
-    url: https://eic.cefet-rj.br/erad2019/index.php
-  - name: IV ERAD-RJ
-    year: 2018
-    url: http://eradrj2018.ic.uff.br/index.php
-  - name: III ERAD-RJ
-    year: 2017
-    url: https://www.dcc.ufrrj.br/erad2017/
+#  - name: IX ERAD-RJ
+#    year: 2024
+#    url: https://eradrj.sbc.org.br/2024/
+#  - name: VIII ERAD-RJ
+#    year: 2023
+#    url: https://eradrj.sbc.org.br/2023/
+#  - name: VII ERAD-RJ
+#    year: 2021
+#    url: http://erad2021.lncc.br/
+#  - name: VI ERAD-RJ
+#    year: 2020
+#    url: https://www.dcc.ufrrj.br/erad2020/
+#  - name: V ERAD-RJ
+#    year: 2019
+#    url: https://eic.cefet-rj.br/erad2019/index.php
+#  - name: IV ERAD-RJ
+#    year: 2018
+#    url: http://eradrj2018.ic.uff.br/index.php
+#  - name: III ERAD-RJ
+#    year: 2017
+#    url: https://www.dcc.ufrrj.br/erad2017/
