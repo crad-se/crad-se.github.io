@@ -87,9 +87,8 @@
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
                 {% if site.data.conference.previous_iterations %}
                 <a class="navbar-brand ml-4 dropdown-toggle" href="#"
-                    title="Edições Anteriores da ERAD-RJ" role="button"
-                    data-toggle="dropdown" aria-expanded="false">
-                    {{site.data.conference.short_name}}
+                    title="Sobre a SBC" role="button"
+                    data-toggle="dropdown" aria-expanded="false">SBC
                 </a>
                 <div class="dropdown-menu">
                     <span class="dropdown-item"></span>
@@ -100,7 +99,7 @@
                     {% endfor %}
                 </div>
                 {% else %}
-                <a class="navbar-brand ml-4" href="#">{{site.data.conference.short_name}}</a>
+                <a class="navbar-brand ml-4" href="history.html" title="Sobre a SBC">SBC</a>
                 {% endif %}
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
