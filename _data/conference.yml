@@ -248,10 +248,10 @@ social_media:
   twitter_link:
 #  insta_link: https://www.instagram.com/eradse.sbc
 
-previous_iterations:
-  - name: X ERAD-SE
-    year: 2025
-    url: https://crad-se.github.io/erad-se2025/
+#previous_iterations:
+#  - name: X ERAD-SE
+#    year: 2025
+#    url: https://crad-se.github.io/erad-se2025/
 #  - name: IX ERAD-RJ
 #    year: 2024
 #    url: https://eradrj.sbc.org.br/2024/
