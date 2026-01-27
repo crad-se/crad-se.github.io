@@ -207,7 +207,7 @@ deadlines:
 #    pass_due: False
 #    strike_through: True
   - date: 2026-01-26
-    text: A Próxima Reunião
+    text: A Próxima Reunião da CRAD
     pass_due: False
     strike_through: False
 #  - date: 2025-10-27
@@ -232,6 +232,8 @@ sponsors:
     logo_path: ./assets/images/sponsors/logo-cesar.png
     url: https://www.cesar.org.br/
 organizers:
+  - name: Laboratório de Computação Científica
+    url: https://lncc.br/index.php
   - logo_path: ./assets/images/sponsors/UFF.png
     url: https://www.ic.uff.br
   - logo_path: ./assets/images/sponsors/logo-ufrj2.png
