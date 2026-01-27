@@ -15,10 +15,6 @@
                             <h5 class="my-4">{{ site.data.conference.full_title }}</h5>
                             <!-- Moved the following up here from else below -->
                             <h6 class="text-center mt-0 mb-1">{{ site.data.conference.date }}</h6>
-                            <!-- <p class="text-center mt-1 mb-0">
-                                {{ site.data.conference.location }}<br> {{ site.data.conference.location2 }}<br>
-                                {{ site.data.conference.country }}
-                            </p> -->
                         </div>
                     </div>
                     {% else %}
@@ -32,14 +28,14 @@
                     </div>
                     {% endif %}
                 {% else %}
-                {# if logo is not shown, title must be shown #}
+                {% if logo is not shown, title must be shown %}
                 <div class="row">
                     <div class="col pt-4">
                         <h5 class="text-center m-4">{{ site.data.conference.full_title }}</h5>
                     </div>
                 </div>
                 {% endif %}
-                <div class="row">
+                <!-- <div class="row">
                     <div class="col-1 col-md-3 ml-4 my-1">
                         <img class="img-fluid mt-1 mb-1 float-right" src="./assets/images/at.png" style="height:50px;">
                     </div>
@@ -50,9 +46,8 @@
                             {{ site.data.conference.country }}</i></b>
                         </p> 
                     </div>
-                </div>
+                </div> -->
             </div>
-
         </div>
 
         <!--slide show-->
