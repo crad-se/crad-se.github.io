@@ -232,7 +232,7 @@ sponsors:
     logo_path: ./assets/images/sponsors/logo-cesar.png
     url: https://www.cesar.org.br/
 organizers:
-  - name: Laboratório de Computação Científica
+  - logo_path: ./assets/images/sponsors/LNCC-final.png
     url: https://lncc.br/index.php
   - logo_path: ./assets/images/sponsors/UFF.png
     url: https://www.ic.uff.br
