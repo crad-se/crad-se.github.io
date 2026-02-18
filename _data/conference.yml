@@ -232,16 +232,24 @@ sponsors:
     logo_path: ./assets/images/sponsors/logo-cesar.png
     url: https://www.cesar.org.br/
 organizers:
+  - logo_path: ./assets/images/sponsors/IME.png
+    url: https://www.ime.eb.mil.br/
   - logo_path: ./assets/images/sponsors/LNCC-final.png
     url: https://lncc.br/index.php
+  - logo_path: ./assets/images/sponsors/PUCMinas.png
+    url: https://icei.pucminas.br/icei/instituto
+  - logo_path: ./assets/images/sponsors/uerj.gif
+    url: https://www.uerj.br
   - logo_path: ./assets/images/sponsors/UFF.png
     url: https://www.ic.uff.br
+  - logo_path: ./assets/images/sponsors/UFLA.png
+    url: https://icet.ufla.br/cge/orcamento/2-uncategorised/312-dcc
+  - logo_path: ./assets/images/sponsors/UFOP.jpg
+    url: https://iceb.ufop.br/ci%C3%AAncia-da-computa%C3%A7%C3%A3o
   - logo_path: ./assets/images/sponsors/logo-ufrj2.png
     url: https://www.ic.ufrj.br
   - logo_path: ./assets/images/sponsors/UFV.png
     url: https://ccp.ufv.br/
-  - logo_path: ./assets/images/sponsors/uerj.gif
-    url: https://www.uerj.br
   - logo_path: ./assets/images/sponsors/UFRRJ-logo2.png
     url: https://www.ni.ufrrj.br/
     
