@@ -12,9 +12,9 @@
                             <img class="img-fluid mt-0 mb-3 border-right border-dark pr-3" src="{{ site.data.conference.logo_path }}">
                         </div>
                         <div class="col-8 col-md-7 mx-0 text-center">
-                            <h5 class="my-4">{{ site.data.conference.full_title }}</h5>
+                            <h5 class="my-4">{{ site.data.conference.short_title }}</h5>
                             <!-- Moved the following up here from else below -->
-                            <h6 class="text-center mt-0 mb-1">{{ site.data.conference.date }}</h6>
+                            <h6 class="text-center mt-0 mb-1">{{ site.data.conference.full_title }}</h6>
                         </div>
                     </div>
                     {% else %}
@@ -31,14 +31,17 @@
                 <!-- if logo is not shown, title must be shown -->
                 <div class="row">
                     <div class="col pt-4">
-                        <h5 class="text-center m-4">{{ site.data.conference.full_title }}</h5>
+                        <h5 class="text-center m-4">{{ site.data.conference.short_title }}</h5>
+                        <h6 class="text-center m-4">{{ site.data.conference.full_title }}</h6>
                     </div>
                 </div>
                 {% endif %}
                 <div class="row">
+                    <!--
                     <div class="col-1 col-md-3 ml-4 my-1">
                         <img class="img-fluid mt-1 mb-1 float-right" src="./assets/images/at.png" style="height:50px;"> 
                     </div>
+                    -->
                     <div class="col">
                       <!-- <h6 class="text-center mt-0 mb-1">{{ site.data.conference.date }}</h6> -->
                         <p class="lh-sm mt-0 mb-1" style="font-size: 90%;">
