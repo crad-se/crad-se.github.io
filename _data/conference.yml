@@ -104,7 +104,7 @@ navbar:
     visible: True
   - id: 3
     label: Atas das Assembléias Gerais
-    path: /cfd.html
+    path: /atas.html
     visible: True
   - id: 4
     label: ERADs
