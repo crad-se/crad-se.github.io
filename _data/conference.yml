@@ -95,39 +95,19 @@ navbar:
     path: /
     visible: True
   - id: 1
-    label: Organização
+    label: Membros
     path: /organization.html
     visible: True
   - id: 2
     label: Estatuto
     path: /estatuto.html
     visible: True
-  - id: 2
-    label: Atas das Assembléias Gerais
-    visible: True
-    children:
-    - id: 1
-      label: Concurso de TCCs e Dissertações
-      path: /cfd.html
-      visible: False
-    - id: 2
-      label: Fórum de Iniciação Científica
-      path: /cfi.html
-      visible: False
-    - id: 3
-      label: Fórum de Pós-graduação
-      path: /cfp.html
-      visible: False
-    - id: 4
-      label: Maratona de Programação Paralela
-      path: /cfpp.html
-      visible: False
-    - id: 5
-      label: Minicursos
-      path: /cfm.html
-      visible: False
   - id: 3
-    label: ERADs Anteriores
+    label: Atas das Assembléias Gerais
+    path: /cfd.html
+    visible: True
+  - id: 4
+    label: ERADs
     visible: True
     children:
     - id: 1
@@ -162,7 +142,7 @@ navbar:
       label: III ERAD-RJ 2017
       path: https://www.dcc.ufrrj.br/erad2017/
       visible: True  
-  - id: 4
+  - id: 5
     label: Programação
     visible: False
     children:
@@ -260,26 +240,12 @@ social_media:
 
 previous_iterations:
   - name: Sobre a SBC
-#    year: 2025
     url: https://crad-se.github.io/history.html
+  - name: CE-ACPAD
+    url: https://ce-acpad.sbc.org.br/
   - name: CRAD/RJ (antigo)
-#    year: 2024
-    url: https://cradrj.sbc.org.br/
+    url: https://cradrj.sbc.org.br/  
 #  - name: VIII ERAD-RJ
 #    year: 2023
 #    url: https://eradrj.sbc.org.br/2023/
-#  - name: VII ERAD-RJ
-#    year: 2021
-#    url: http://erad2021.lncc.br/
-#  - name: VI ERAD-RJ
-#    year: 2020
-#    url: https://www.dcc.ufrrj.br/erad2020/
-#  - name: V ERAD-RJ
-#    year: 2019
-#    url: https://eic.cefet-rj.br/erad2019/index.php
-#  - name: IV ERAD-RJ
-#    year: 2018
-#    url: http://eradrj2018.ic.uff.br/index.php
-#  - name: III ERAD-RJ
-#    year: 2017
-#    url: https://www.dcc.ufrrj.br/erad2017/
+
