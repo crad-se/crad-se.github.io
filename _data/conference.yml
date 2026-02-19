@@ -163,7 +163,7 @@ navbar:
 #    path: /venue.html
 #    visible: True
     
-deadline_timezone: AoE
+deadline_timezone: Horário de Brasília (UTC-3)
 deadlines:
 #  - date: 2025-09-22
 #    timezone: AoE
@@ -187,13 +187,13 @@ deadlines:
 #    pass_due: False
 #    strike_through: True
   - date: 2026-01-26
-    text: A Próxima Reunião da CRAD
+    text: A última reunião da CRAD
     pass_due: False
     strike_through: False
-#  - date: 2025-10-27
-#    text: Entrega da Versão Final
-#    pass_due: False
-#    strike_through: True
+  - date: 2026-03-23
+    text: A próxima reunião da CRAD será às 18 horas
+    pass_due: False
+    strike_through: False
 
 sponsors:
   - name: Amazon Web Services
