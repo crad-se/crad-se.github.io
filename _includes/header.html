@@ -90,19 +90,19 @@
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
                 {% if site.data.conference.previous_iterations %}
                 <a class="navbar-brand ml-4 dropdown-toggle" href="#"
-                    title="Sobre a SBC" role="button"
+                    title="Sociedade Brasileira de Computação" role="button"
                     data-toggle="dropdown" aria-expanded="false">SBC
                 </a>
                 <div class="dropdown-menu">
                     <span class="dropdown-item"></span>
                     {% for previous in site.data.conference.previous_iterations %}
                     <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
-                        {{previous.name}}, {{previous.year}}
+                        {{previous.name}}
                     </a>
                     {% endfor %}
                 </div>
                 {% else %}
-                <a class="navbar-brand ml-4" href="history.html" title="Sobre a SBC">SBC</a>
+                <a class="navbar-brand ml-4" href="history.html" title="Sociedade Brasileira de Computação">SBC</a>
                 {% endif %}
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
