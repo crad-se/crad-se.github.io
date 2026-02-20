@@ -49,6 +49,11 @@
     org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
     homepage: ""  
 
+- title: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Rio de Janeiro - RJ
+  column: 2
+  members: 
+  - name: Diego N. Brandão
+    homepage: ""
 - title: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
   column: 2
   members: 
@@ -113,13 +118,20 @@
 - title: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
   column: 2
   members:
+  - name: Adriano Cortes
+    post: ""
   - name: Gabriel Silva
     homepage: ""
   - name: Marcos Tomazzoli Leipnitz
     homepage: ""
-  - name:   Silvana Rossetto
+  - name: Silvana Rossetto
     homepage: ""
-    
+- title: Universidade Federal de Viçosa (UFV), Viçosa - MG
+  column: 2
+  members: 
+  - name: Ricardo Ferreira
+    homepage: ""  
+
 - title: Universidade Federal Fluminense (UFF), Niterói - RJ
   column: 2
   members:
@@ -143,6 +155,8 @@
   column: 2
   members: 
   - name: Juliana Nascente
+    homepage: ""
+  - name: Marcelo Zamith
     homepage: ""
   - name: Ubiratam De Paula
     homepage: "" 
