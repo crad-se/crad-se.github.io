@@ -1,14 +1,14 @@
 full_name: Comissão Regional de Alto Desempenho da Região Sudeste
-short_name: CRAD-SE
+short_name: CRAD/SE
 description: > # this means to ignore newlines until "baseurl:"
   Com apoio da SBC, a comissão tem como objetivo principal criar 
   políticas de fomento às áreas de processamento distribuído e paralelo e de computação de alto 
-  desempenho na região. Dentre as diversas atribuições da CRAD-SE, inclui-se o estabelecimento de um 
+  desempenho na região. Dentre as diversas atribuições da CRAD/SE, inclui-se o estabelecimento de um 
   fórum de discussões sobre diferentes frentes de estudo e pesquisa referentes a estas áreas, seja 
-  por meio da lista de discussões da CRAD-SE, seja pela organização das ERADs em regime anual. CRAD-SE 
+  por meio da lista de discussões da CRAD/SE, seja pela organização das ERADs em regime anual. CRAD/SE 
   congrega instituições de pesquisa e educação, empresas e indústria, e o governo dos estados do Rio 
   de Janeiro, Minas Gerais e Espírito Santo, com interesses em Computação de Alto Desempenho (High 
-  Performance Computing - HPC), processamento distribuído e paralelo, e áreas que  fazem uso de 
+  Performance Computing - HPC), processamento distribuído e paralelo, e áreas que fazem uso de 
   supercomputação.
  
 email: crad-se-l@ic.uff.br
@@ -26,7 +26,7 @@ short_title: CRAD Região Sudeste
 logo_path: ./assets/images/ERAD-SE-FLogo.png
 sbc_path: ./assets/images/LogoSBC-Site.png
 sbc_description: > 
-  A CRAD-SE é promovida pela Sociedade Brasileira de Computação (SBC) com o objetivo de estimular o 
+  A CRAD/SE é promovida pela Sociedade Brasileira de Computação (SBC) com o objetivo de estimular o 
   estudo e a pesquisa nas áreas de Arquitetura de Computadores, Processamento de Alto Desempenho, 
   Sistemas Distribuídos, e Aplicações, e promover a qualificação de profissionais da região, além 
   de prover um fórum regular onde possam ser apresentados e discutidas avanços recentes nestas áreas 
@@ -104,8 +104,16 @@ navbar:
     visible: True
   - id: 3
     label: Atas das Assembléias Gerais
-    path: /atas.html
     visible: True
+    children:
+    - id: 1
+      label: Assembléias Gerais
+      path: 
+      visible: True
+    - id: 2
+      label: Reuniões Periódicos
+      path: 
+      visible: True
   - id: 4
     label: ERADs
     visible: True
