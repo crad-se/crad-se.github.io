@@ -24,7 +24,7 @@ short_title: CRAD Região Sudeste
 #country: Niterói, Brasil
 
 logo_path: ./assets/images/ERAD-SE-FLogo.png
-sbc_path: ./assets/images/LogoSBC-Site.png
+sbc_path: ./assets/images/LogoSBC.png
 sbc_description: > 
   A CRAD/SE é promovida pela Sociedade Brasileira de Computação (SBC) com o objetivo de estimular o 
   estudo e a pesquisa nas áreas de Arquitetura de Computadores, Processamento de Alto Desempenho, 
