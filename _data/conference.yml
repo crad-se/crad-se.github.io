@@ -100,7 +100,7 @@ navbar:
     visible: True
   - id: 2
     label: Estatuto
-    path: /estatuto.html
+    path: ./assets/files/Estatuto.pdf
     visible: True
   - id: 3
     label: Atas das Assembléias Gerais
