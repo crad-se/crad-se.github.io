@@ -25,7 +25,30 @@
     org: Universidade Federal de Viçosa (UFV), Viçosa - MG
     post: ""
     homepage: ""
-    
+
+- title: Comissão Eleitoral (2024 - 2027)
+  column: 1
+  members:
+  - name: Vinod Rebello
+    org: Universidade Federal Fluminense (UFF), Niterói - RJ
+    homepage: ""
+  - name: 
+    org:  
+    homepage: ""
+
+- title: Coordenação ERAD-SE 2026
+  column: 1
+  members:
+  - name: Marcelo Lobosco
+    org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
+    homepage: ""
+  - name: Jose J. Camata
+    org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
+    homepage: ""
+  - name: Mário Dantas
+    org: Universidade Federal de Juiz de Fora (UFJF), Juiz de Fora - MG
+    homepage: ""  
+
 - title: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
   column: 2
   members: 
