@@ -3,36 +3,34 @@
   members:
   - name: Cristina Boeres
     post: ""
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
+    org: Universidade Federal Fluminense (UFF)
     homepage: https://www.ic.uff.br/blog/pessoas/maria-cristina-silva-boeres/
 - title: Comissão Executiva (2024 - 2027)
   column: 1
   members:
   - name: Diego N. Brandão (Titular) e Rafaelli Coutinho (Suplente)
-    org: CEFET/RJ
+    org: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ)
     homepage: ""
   - name: Carla Osthoff (T) e Kary Ocaña (S)
-    org: LNCC
-    homepage: ""
+    org: Laboratório de Computação Científica (LNCC)
   - name: Alexandre Sena (T) e Rafaela Brum (S)
-    org: UERJ
+    org: Universidade do Estado do Rio de Janeiro (UERJ)
     post: ""
     homepage: ""
   - name: Marcelo Zamith (T) e Ubiratam De Paula (S)
-    org: UFRRJ
+    org: Universidade Federal Rural de Rio de Janeiro (UFRRJ)
     homepage: ""
   - name: Cristina Boeres (T) e Lúcia Drummond (S)
-    org: UFF
-    post: ""
+    org: Universidade Federal Fluminense (UFF)
     homepage: ""
 
-- title: Comissão Eleitoral (2024 - 2027)
+- title: Comissão Eleitoral (2024 - 2027)*
   column: 1
   members:
   - name: Vinod Rebello
-    org: Universidade Federal Fluminense (UFF), Niterói - RJ
-    homepage: ""
-  - name: 
+    org: Universidade Federal Fluminense (UFF)
+    post: "Votação pendente"
+  - name: Posição vaga
     org:  
     homepage: ""
 
@@ -69,6 +67,7 @@
     homepage: ""
   - name: Carla Osthoff
     homepage: ""
+  - name: Kary Ocaña 
   - name: Roberto Pinto Souto
     homepage: ""
 
