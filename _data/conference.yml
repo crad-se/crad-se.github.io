@@ -107,12 +107,12 @@ navbar:
     visible: True
     children:
     - id: 1
-      label: Assembléias Gerais
+      label: @ERAD-SE 05/11/2025
       path: 
       visible: True
     - id: 2
-      label: Reuniões Periódicos
-      path: 
+      label: @ERAD-RJ 06/11/2024
+      path: ./assets/files/Ata-AG-RJ-061124.pdf
       visible: True
   - id: 4
     label: ERADs
