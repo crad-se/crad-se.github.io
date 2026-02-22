@@ -8,21 +8,21 @@
 - title: Comissão Executiva (2024 - 2027)
   column: 1
   members:
-  - name: Diego N. Brandão
-    org: Centro Federal de Educação Tecnológica Celso Suckow da Fonseca (CEFET/RJ), Rio de Janeiro - RJ
+  - name: Diego N. Brandão (Titular) e Rafaelli Coutinho (Suplente)
+    org: CEFET/RJ
     homepage: ""
-  - name: Maicon Melo Alves
-    org:  Petróleo Brasileiro S.A. (Petrobras), Campos dos Goytacazes - RJ
+  - name: Carla Osthoff (T) e Kary Ocaña (S)
+    org: LNCC
     homepage: ""
-  - name: Adriano Cortes
-    org: Universidade Federal de Rio de Janeiro (UFRJ), Rio de Janeiro - RJ
+  - name: Alexandre Sena (T) e Rafaela Brum (S)
+    org: UERJ
     post: ""
     homepage: ""
-  - name: Marcelo Zamith
-    org: Universidade Fed. Rural de Rio de Janeiro (UFRRJ), Nova Iguaçu - RJ
+  - name: Marcelo Zamith (T) e Ubiratam De Paula (S)
+    org: UFRRJ
     homepage: ""
-  - name: Ricardo Ferreira
-    org: Universidade Federal de Viçosa (UFV), Viçosa - MG
+  - name: Cristina Boeres (T) e Lúcia Drummond (S)
+    org: UFF
     post: ""
     homepage: ""
 
@@ -54,6 +54,7 @@
   members: 
   - name: Diego N. Brandão
     homepage: ""
+  - name: Rafaelli Coutinho
 - title: Instituto Militar de Engenharia (IME), Rio de Janeiro - RJ
   column: 2
   members: 
@@ -136,6 +137,8 @@
   column: 2
   members:
   - name: Aline Nascimento
+    homepage: ""
+  - name: Cristina Boeres
     homepage: ""
   - name: Daniel de Oliveira
     homepage: ""
