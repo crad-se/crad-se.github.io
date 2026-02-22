@@ -107,11 +107,11 @@ navbar:
     visible: True
     children:
     - id: 1
-      label: @ERAD-SE 05/11/2025
+      label: 05/11/2025 @ERAD-SE 
       path: 
       visible: True
     - id: 2
-      label: @ERAD-RJ 06/11/2024
+      label: 06/11/2024 @ERAD-RJ 
       path: ./assets/files/Ata-AG-RJ-061124.pdf
       visible: True
   - id: 4
