@@ -211,25 +211,24 @@ sbc-links:
     url: https://cradrj.sbc.org.br/  
 
 previous_iterations:
-#  - name: VIII ERAD-RJ
-#    year: 2023
-#    url: https://eradrj.sbc.org.br/2023/
-  -  name: XI ERAD-SE 2026
-     url: https://crad-se.github.io/erad-se2026/
-  -  name: X ERAD-SE 2025
-     url: https://crad-se.github.io/erad-se2025/
-  -  name: IX ERAD-RJ 2024
-     url: https://eradrj.sbc.org.br/2024/
-  -  name: VIII ERAD-RJ 2023
-     url: https://eradrj.sbc.org.br/2023/
-  -  name: VII ERAD-RJ 2021
-     url: http://erad2021.lncc.br/
-  -  name: VI ERAD-RJ 2020
-     url: https://www.dcc.ufrrj.br/erad2020/
-  -  name: V ERAD-RJ 2019
-     url: https://eic.cefet-rj.br/erad2019/index.php
-  -  name: IV ERAD-RJ 2018
-     url: http://eradrj2018.ic.uff.br/index.php
-  -  name: III ERAD-RJ 2017
-     url: https://www.dcc.ufrrj.br/erad2017/
-  
+  - name: XI ERAD-SE 2026
+    url: https://crad-se.github.io/erad-se2026/
+  - name: X ERAD-SE 2025
+    url: https://crad-se.github.io/erad-se2025/
+  - name: IX ERAD-RJ 2024
+    url: https://eradrj.sbc.org.br/2024/
+  - name: VIII ERAD-RJ 2023
+    url: https://eradrj.sbc.org.br/2023/
+  - name: VII ERAD-RJ 2021
+    url: http://erad2021.lncc.br/
+  - name: VI ERAD-RJ 2020
+    url: https://www.dcc.ufrrj.br/erad2020/
+  - name: V ERAD-RJ 2019
+    url: https://eic.cefet-rj.br/erad2019/index.php
+  - name: IV ERAD-RJ 2018
+    url: http://eradrj2018.ic.uff.br/index.php
+  - name: III ERAD-RJ 2017
+    url: https://www.dcc.ufrrj.br/erad2017/
+  #  - name: VIII ERAD-RJ
+  #    year: 2023
+  #    url: https://eradrj.sbc.org.br/2023/
