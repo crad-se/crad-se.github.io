@@ -88,23 +88,33 @@
         <!--navbar-->
         <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
-                {% if site.data.conference.previous_iterations %}
+                {% if site.data.conference.sbc-links %}
                 <a class="navbar-brand ml-4 dropdown-toggle" href="#"
                     title="Sociedade Brasileira de Computação" role="button"
-                    data-toggle="dropdown" aria-expanded="false">SBC
-                </a>
+                    data-toggle="dropdown" aria-expanded="false">SBC</a>
                 <div class="dropdown-menu">
                     <span class="dropdown-item"></span>
-                    {% for previous in site.data.conference.previous_iterations %}
-                    <a class="dropdown-item text-secondary" href="{{previous.url}}" target="_blank" rel="noopener">
-                        {{previous.name}}
-                    </a>
+                    {% for link in site.data.conference.sbc-links %}
+                    <a class="dropdown-item text-secondary" href="{{link.url}}" target="_blank" rel="noopener">
+                        {{link.name}}</a>
                     {% endfor %}
                 </div>
                 {% else %}
                 <a class="navbar-brand ml-4" href="history.html" title="Sociedade Brasileira de Computação">SBC</a>
                 {% endif %}
 
+                {% if site.data.conference.previous_iterations %}
+                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
+                    title="ERADs" role="button"
+                    data-toggle="dropdown" aria-expanded="false">ERADs</a>
+                <div class="dropdown-menu">
+                    <span class="dropdown-item"></span>
+                    {% for event in site.data.conference.sbc-links %}
+                    <a class="dropdown-item text-secondary" href="{{event.url}}" target="_blank" rel="noopener">
+                        {{event.name}}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
                     aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -173,7 +183,6 @@
                         </li>
                         {% endif %}
                     </ul>
-
                 </div>
             </nav>
         </div>
