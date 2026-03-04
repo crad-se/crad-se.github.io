@@ -203,12 +203,12 @@ social_media:
 #  insta_link: https://www.instagram.com/eradse.sbc
 
 sbc-links:
-#  - name: Sobre a SBC
-#    url: https://crad-se.github.io/history.html
-#  - name: CE-ACPAD
-#    url: https://ce-acpad.sbc.org.br/
-#  - name: CRAD/RJ (antigo)
-#    url: https://cradrj.sbc.org.br/  
+  - name: Sobre a SBC
+    url: https://crad-se.github.io/history.html
+  - name: CE-ACPAD
+    url: https://ce-acpad.sbc.org.br/
+  - name: CRAD/RJ (antigo)
+    url: https://cradrj.sbc.org.br/  
 
 previous-editions:
   - name: XI ERAD-SE 2026
