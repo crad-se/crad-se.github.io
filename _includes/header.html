@@ -109,7 +109,7 @@
                     data-toggle="dropdown" aria-expanded="false">ERADs</a>
                 <div class="dropdown-menu">
                     <span class="dropdown-item"></span>
-                    {% for event in site.data.conference.sbc-links %}
+                    {% for event in site.data.conference.previous_iterations %}
                     <a class="dropdown-item text-secondary" href="{{event.url}}" target="_blank" rel="noopener">
                         {{event.name}}</a>
                     {% endfor %}
