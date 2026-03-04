@@ -89,10 +89,10 @@
         <div class="mynav col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <nav class="nav navbar-dark bg-dark navbar-expand-lg">
                 {% if site.data.conference.sbc-links %}
-                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
+                <a class="navbar-brand ml-4 dropdown-toggle" href="#" id="sbc-dropdown"
                     title="Sociedade Brasileira de Computação" role="button"
-                    data-toggle="dropdown" aria-expanded="false">SBC</a>
-                <div class="dropdown-menu">
+                    data-toggle="dropdown" aria-expanded="false" aria-haspopup="true" aria-controls="sbc-menu">SBC</a>
+                <div class="dropdown-menu" id="sbc-menu">
                     <span class="dropdown-item"></span>
                     {% for link in site.data.conference.sbc-links %}
                     <a class="dropdown-item text-secondary" href="{{link.url}}" target="_blank" rel="noopener">
@@ -104,10 +104,10 @@
                 {% endif %}
 
                 {% if site.data.conference.previous-editions %}
-                <a class="navbar-brand ml-4 dropdown-toggle" href="#"
-                    title="ERADs" role="button"
-                    data-toggle="dropdown" aria-expanded="false">ERADs</a>
-                <div class="dropdown-menu">
+                <a class="navbar-brand ml-4 dropdown-toggle" href="#" id="erads-dropdown"
+                    title="ERADs" role="button" data-toggle="dropdown" aria-expanded="false" 
+                    aria-haspopup="true" aria-controls="erads-menu">ERADs</a>
+                <div class="dropdown-menu" id="erads-menu">
                     <span class="dropdown-item"></span>
                     {% for event in site.data.conference.previous-editions %}
                     <a class="dropdown-item text-secondary" href="{{event.url}}" target="_blank" rel="noopener">
