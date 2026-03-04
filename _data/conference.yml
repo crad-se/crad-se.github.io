@@ -119,46 +119,6 @@ navbar:
       path: ./assets/files/Ata-AG-RJ-061124.pdf
       visible: True
   - id: 4
-    label: ERADs
-    visible: True
-    children:
-    - id: 1
-      label: XI ERAD-SE 2026
-      path: https://crad-se.github.io/erad-se2026/
-      visible: True
-    - id: 2
-      label: X ERAD-SE 2025
-      path: https://crad-se.github.io/erad-se2025/
-      visible: True
-    - id: 3
-      label: IX ERAD-RJ 2024
-      path: https://eradrj.sbc.org.br/2024/
-      visible: True
-    - id: 4
-      label: VIII ERAD-RJ 2023
-      path: https://eradrj.sbc.org.br/2023/
-      visible: True
-    - id: 5
-      label: VII ERAD-RJ 2021
-      path: http://erad2021.lncc.br/
-      visible: True
-    - id: 6
-      label: VI ERAD-RJ 2020
-      path: https://www.dcc.ufrrj.br/erad2020/
-      visible: True
-    - id: 7
-      label: V ERAD-RJ 2019
-      path: https://eic.cefet-rj.br/erad2019/index.php
-      visible: True
-    - id: 8
-      label: IV ERAD-RJ 2018
-      path: http://eradrj2018.ic.uff.br/index.php
-      visible: True
-    - id: 9
-      label: III ERAD-RJ 2017
-      path: https://www.dcc.ufrrj.br/erad2017/
-      visible: True  
-  - id: 5
     label: Programação
     visible: False
     children:
@@ -242,14 +202,34 @@ social_media:
   twitter_link:
 #  insta_link: https://www.instagram.com/eradse.sbc
 
-previous_iterations:
+sbc-links:
   - name: Sobre a SBC
     url: https://crad-se.github.io/history.html
   - name: CE-ACPAD
     url: https://ce-acpad.sbc.org.br/
   - name: CRAD/RJ (antigo)
     url: https://cradrj.sbc.org.br/  
+
+previous_iterations:
 #  - name: VIII ERAD-RJ
 #    year: 2023
 #    url: https://eradrj.sbc.org.br/2023/
-
+  -  name: XI ERAD-SE 2026
+     url: https://crad-se.github.io/erad-se2026/
+  -  name: X ERAD-SE 2025
+     url: https://crad-se.github.io/erad-se2025/
+  -  name: IX ERAD-RJ 2024
+     url: https://eradrj.sbc.org.br/2024/
+  -  name: VIII ERAD-RJ 2023
+     url: https://eradrj.sbc.org.br/2023/
+  -  name: VII ERAD-RJ 2021
+     url: http://erad2021.lncc.br/
+  -  name: VI ERAD-RJ 2020
+     url: https://www.dcc.ufrrj.br/erad2020/
+  -  name: V ERAD-RJ 2019
+     url: https://eic.cefet-rj.br/erad2019/index.php
+  -  name: IV ERAD-RJ 2018
+     url: http://eradrj2018.ic.uff.br/index.php
+  -  name: III ERAD-RJ 2017
+     url: https://www.dcc.ufrrj.br/erad2017/
+  
