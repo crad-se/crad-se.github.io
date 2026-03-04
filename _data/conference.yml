@@ -207,10 +207,10 @@ sbc-links:
 #    url: https://crad-se.github.io/history.html
 #  - name: CE-ACPAD
 #    url: https://ce-acpad.sbc.org.br/
-  - name: CRAD/RJ (antigo)
-    url: https://cradrj.sbc.org.br/  
+#  - name: CRAD/RJ (antigo)
+#    url: https://cradrj.sbc.org.br/  
 
-previous_iterations:
+previous-editions:
   - name: XI ERAD-SE 2026
     url: https://crad-se.github.io/erad-se2026/
   - name: X ERAD-SE 2025
