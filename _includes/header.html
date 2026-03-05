@@ -103,18 +103,6 @@
                 <a class="navbar-brand ml-4" href="history.html" title="Sociedade Brasileira de Computação">SBC</a>
                 {% endif %}
 
-                {% if site.data.conference.previous-editions %}
-                <a class="navbar-brand ml-4 dropdown-toggle" href="#" id="erads-dropdown"
-                    title="ERADs" role="button" data-toggle="dropdown" aria-expanded="false" 
-                    aria-haspopup="true" aria-controls="erads-menu">ERADs</a>
-                <div class="dropdown-menu" id="erads-menu">
-                    <span class="dropdown-item"></span>
-                    {% for event in site.data.conference.previous-editions %}
-                    <a class="dropdown-item text-secondary" href="{{event.url}}" target="_blank" rel="noopener">
-                        {{event.name}}</a>
-                    {% endfor %}
-                </div>
-                {% endif %}
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-with-toggle"
                     aria-controls="navbar-with-toggle" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -184,6 +172,18 @@
                         {% endif %}
                     </ul>
                 </div>
+                {% if site.data.conference.previous-editions %}
+                <a class="navbar-brand ml-4 dropdown-toggle" href="#" id="erads-dropdown"
+                    title="ERADs" role="button" data-toggle="dropdown" aria-expanded="false" 
+                    aria-haspopup="true" aria-controls="erads-menu">ERADs</a>
+                <div class="dropdown-menu" id="erads-menu">
+                    <span class="dropdown-item"></span>
+                    {% for event in site.data.conference.previous-editions %}
+                    <a class="dropdown-item text-secondary" href="{{event.url}}" target="_blank" rel="noopener">
+                        {{event.name}}</a>
+                    {% endfor %}
+                </div>
+                {% endif %}
             </nav>
         </div>
     </div>
