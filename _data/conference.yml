@@ -112,7 +112,7 @@ navbar:
     children:
     - id: 1
       label: 05/11/2025 @ERAD-SE 
-      path: 
+      path: ./assets/files/Ata-AG-SE-051125.pdf
       visible: True
     - id: 2
       label: 06/11/2024 @ERAD-RJ 
