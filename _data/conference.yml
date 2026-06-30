@@ -107,14 +107,34 @@ navbar:
       path: ./assets/files/Estatuto-V1.0.pdf
       visible: True
   - id: 3
-    label: Atas das Assembléias Gerais
+    label: Atas das Assembléias
     visible: True
     children:
     - id: 1
+      label: 26/01/2026 Online 
+      path: ./assets/files//Ata_26-Jan-2026.pdf
+      visible: True
+    - id: 2
+      label: 15/12/2025 Online 
+      path: ./assets/files//Ata_15-Dez-2025.pdf
+      visible: True
+    - id: 3
       label: 05/11/2025 @ERAD-SE 
       path: ./assets/files/Ata-AG-SE-051125.pdf
       visible: True
-    - id: 2
+    - id: 4
+      label: 03/09/2025 Online 
+      path: ./assets/files//Ata_3-Sep-2025.pdf
+      visible: True
+    - id: 5
+      label: 09/07/2025 Online 
+      path: ./assets/files//Ata_9-Jul-2025.pdf
+      visible: True]
+    - id: 6
+      label: 13/01/2025 Online 
+      path: ./assets/files/Ata_13-Jan-2025.pdf
+      visible: True
+    - id: 7
       label: 06/11/2024 @ERAD-RJ 
       path: ./assets/files/Ata-AG-RJ-061124.pdf
       visible: True
@@ -150,8 +170,8 @@ deadlines:
     text: A última reunião da CRAD
     pass_due: False
     strike_through: False
-  - date: 2026-03-23
-    text: A próxima reunião da CRAD será às 18 horas
+  - date: 2026-06-30
+    text: A próxima reunião da CRAD será às 17 horas
     pass_due: False
     strike_through: False
   - date: 2026-08-12
