@@ -138,7 +138,7 @@ navbar:
       label: 13/01/2025 Online 
       path: ./assets/files/Ata_13-Jan-2025.pdf
       visible: True
-    - id: 7
+    - id: 8
       label: 06/11/2024 @ERAD-RJ 
       path: ./assets/files/Ata-AG-RJ-061124.pdf
       visible: True
@@ -158,11 +158,15 @@ navbar:
       label: Minicursos
       path: /mcursos.html
       visible: False
-#  - id: 6
-#    label: Venue
-#    path: /venue.html
-#    visible: True
-    
+  - id: 5
+    label: ERADs
+    visible: True
+    children:
+    - id: 1
+      label: XI ERAD-SE 2026
+      path: https://crad-se.github.io/erad-se2026/
+      visible: True
+
 deadline_timezone: Horário de Brasília (UTC-3)
 deadlines:
 #  - date: 2025-09-22
@@ -170,18 +174,18 @@ deadlines:
 #    text: Submission deadline
 #    pass_due: True
 #    strike_through: True
-  - date: 2026-01-26
+  - date: 2026-08-13
     text: A última reunião da CRAD
     pass_due: False
     strike_through: False
-  - date: 2026-06-30
-    text: A próxima reunião da CRAD será às 17 horas
+  - date: 2026-10-27
+    text: A próxima reunião da CRAD será às 17h15
     pass_due: False
     strike_through: False
-  - date: 2026-08-12
-    text: Nossa <strong><a href="https://crad-se.github.io/erad-se2026/">ERAD-SE 2026</a></strong> vai ser realizada de 12 a 14 de Agosto na UFJF, em Juiz da Fora, MG
-    pass_due: False
-    strike_through: False
+#  - date: 2026-08-12
+#    text: Nossa <strong><a href="https://crad-se.github.io/erad-se2026/">ERAD-SE 2026</a></strong> vai ser realizada de 12 a 14 de Agosto na UFJF, em Juiz da Fora, MG
+#    pass_due: False
+#    strike_through: False
 
 sponsors:
   - name: Amazon Web Services
