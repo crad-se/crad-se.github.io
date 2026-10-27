@@ -158,15 +158,7 @@ navbar:
       label: Minicursos
       path: /mcursos.html
       visible: False
-  - id: 5
-    label: ERADs
-    visible: False
-    children:
-    - id: 1
-      label: XI ERAD-SE 2026
-      path: https://crad-se.github.io/erad-se2026/
-      visible: False
-
+ 
 deadline_timezone: Horário de Brasília (UTC-3)
 deadlines:
 #  - date: 2025-09-22
@@ -250,9 +242,6 @@ erad-editions:
     url: http://eradrj2018.ic.uff.br/index.php
   - name: III ERAD-RJ 2017
     url: https://www.dcc.ufrrj.br/erad2017/
-  #  - name: VIII ERAD-RJ
-  #    year: 2023
-  #    url: https://eradrj.sbc.org.br/2023/
 
   sbc-links:
   - name: Sobre a SBC
