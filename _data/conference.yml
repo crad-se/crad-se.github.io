@@ -234,7 +234,8 @@ sbc-links:
   - name: CRAD/RJ (antigo)
     url: https://cradrj.sbc.org.br/  
 
-previous-editions:
+# links to previous ERAD events
+erad-editions:
   - name: XI ERAD-SE 2026
     url: https://crad-se.github.io/erad-se2026/
   - name: X ERAD-SE 2025
