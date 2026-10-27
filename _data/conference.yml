@@ -111,26 +111,30 @@ navbar:
     visible: True
     children:
     - id: 1
+      label: 13/08/2026 @ERAD-SE 
+      path: ./assets/files/Ata-AG-SE-130826.pdf
+      visible: True
+    - id: 2
       label: 26/01/2026 Online 
       path: ./assets/files//Ata_26-Jan-2026.pdf
       visible: True
-    - id: 2
+    - id: 3
       label: 15/12/2025 Online 
       path: ./assets/files//Ata_15-Dez-2025.pdf
       visible: True
-    - id: 3
+    - id: 4
       label: 05/11/2025 @ERAD-SE 
       path: ./assets/files/Ata-AG-SE-051125.pdf
       visible: True
-    - id: 4
+    - id: 5
       label: 03/09/2025 Online 
       path: ./assets/files//Ata_3-Sep-2025.pdf
       visible: True
-    - id: 5
-      label: 09/07/2025 Online 
-      path: ./assets/files//Ata_9-Jul-2025.pdf
-      visible: True]
     - id: 6
+      label: 09/07/2025 Online 
+      path: ./assets/files/Ata_9-Jul-2025.pdf
+      visible: True
+    - id: 7
       label: 13/01/2025 Online 
       path: ./assets/files/Ata_13-Jan-2025.pdf
       visible: True
