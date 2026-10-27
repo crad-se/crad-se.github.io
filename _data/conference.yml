@@ -224,14 +224,14 @@ social_media:
 
 # links to previous ERAD events
 erad-editions:
-- name: XI ERAD-SE 2026
-  url: https://crad-se.github.io/erad-se2026/
-- name: X ERAD-SE 2025
-  url: https://crad-se.github.io/erad-se2025/
-- name: IX ERAD-RJ 2024
-  url: https://eradrj.sbc.org.br/2024/
-- name: VIII ERAD-RJ 2023
-  url: https://eradrj.sbc.org.br/2023/
+  - name: XI ERAD-SE 2026
+    url: https://crad-se.github.io/erad-se2026/
+  - name: X ERAD-SE 2025
+    url: https://crad-se.github.io/erad-se2025/
+  - name: IX ERAD-RJ 2024
+    url: https://eradrj.sbc.org.br/2024/
+  - name: VIII ERAD-RJ 2023
+    url: https://eradrj.sbc.org.br/2023/
 #  - name: VII ERAD-RJ 2021
 #    url: http://erad2021.lncc.br/
 #  - name: VI ERAD-RJ 2020
