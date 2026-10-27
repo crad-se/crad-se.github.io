@@ -160,12 +160,12 @@ navbar:
       visible: False
   - id: 5
     label: ERADs
-    visible: True
+    visible: False
     children:
     - id: 1
       label: XI ERAD-SE 2026
       path: https://crad-se.github.io/erad-se2026/
-      visible: True
+      visible: False
 
 deadline_timezone: Horário de Brasília (UTC-3)
 deadlines:
@@ -230,14 +230,6 @@ social_media:
   twitter_link:
 #  insta_link: https://www.instagram.com/eradse.sbc
 
-sbc-links:
-  - name: Sobre a SBC
-    url: https://crad-se.github.io/history.html
-  - name: CE-ACPAD
-    url: https://ce-acpad.sbc.org.br/
-  - name: CRAD/RJ (antigo)
-    url: https://cradrj.sbc.org.br/  
-
 # links to previous ERAD events
 erad-editions:
   - name: XI ERAD-SE 2026
@@ -261,3 +253,11 @@ erad-editions:
   #  - name: VIII ERAD-RJ
   #    year: 2023
   #    url: https://eradrj.sbc.org.br/2023/
+
+  sbc-links:
+  - name: Sobre a SBC
+    url: https://crad-se.github.io/history.html
+  - name: CE-ACPAD
+    url: https://ce-acpad.sbc.org.br/
+  - name: CRAD/RJ (antigo)
+    url: https://cradrj.sbc.org.br/
